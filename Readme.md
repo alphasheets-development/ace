@@ -1,3 +1,13 @@
+Building ace (alphasheets)
+==========================
+* pull `alphasheets-development/ace-builds` into the same parent folder
+* pull `alphasheets-development/brace` into the same parent folder
+* run `cd ace; node Makefile.dryice.js full --target ../ace-builds`
+* commit changes to the `ace` repository and push to `master`
+* commit changes to the `ace-builds` repository and push to `master`
+* run `cd ../brace/build; node update.js; cd ..`
+* commit changes to the `brace` repository and push to `master`
+
 Ace (Ajax.org Cloud9 Editor)
 ============================
 
